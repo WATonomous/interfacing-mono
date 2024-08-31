@@ -1,6 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
+class ArbiterNode : public rclcpp::Node 
 
-class ArbiterNode : public rclcpp::Node // modify name
 {
 public:
     ArbiterNode() : Node("arbiter"){

@@ -1,5 +1,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
+#include "geometry_msgs/msg/twist.hpp"
+//#include "shared_msgs/msg/CANReqMsg.hpp"
 
 class MuxNode : public rclcpp::Node
 {
@@ -10,23 +12,21 @@ public:
         this->get_parameter("select_value", selected_input_);
 
         // Subscribers
-        input1_sub_ = this->create_subscription<std_msgs::msg::String>(
+        input1_sub_ = this->create_subscription<geometry_msgs::msg::Twist>(
             "input1", 10, std::bind(&MuxNode::input1_callback, this, std::placeholders::_1));
-        input2_sub_ = this->create_subscription<std_msgs::msg::String>(
+        input2_sub_ = this->create_subscription<geometry_msgs::msg::Twist>(
             "input2", 10, std::bind(&MuxNode::input2_callback, this, std::placeholders::_1));
-        input3_sub_ = this->create_subscription<std_msgs::msg::String>(
+        input3_sub_ = this->create_subscription<geometry_msgs::msg::Twist>(
             "input3", 10, std::bind(&MuxNode::input3_callback, this, std::placeholders::_1));
 
-        // Publisher
-        output_pub_ = this->create_publisher<std_msgs::msg::String>("output", 10);
+        output_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("output", 10);
 
-        // Parameter Change Callback
         param_callback_handle_ = this->add_on_set_parameters_callback(
             std::bind(&MuxNode::param_callback, this, std::placeholders::_1));
     }
 
 private:
-    void input1_callback(const std_msgs::msg::String::SharedPtr msg)
+    void input1_callback(const geometry_msgs::msg::Twist::SharedPtr msg)
     {
         if (selected_input_ == 1)
         {
@@ -34,7 +34,7 @@ private:
         }
     }
 
-    void input2_callback(const std_msgs::msg::String::SharedPtr msg)
+    void input2_callback(const geometry_msgs::msg::Twist::SharedPtr msg)
     {
         if (selected_input_ == 2)
         {
@@ -42,7 +42,7 @@ private:
         }
     }
 
-    void input3_callback(const std_msgs::msg::String::SharedPtr msg)
+    void input3_callback(const geometry_msgs::msg::Twist::SharedPtr msg)
     {
         if (selected_input_ == 3)
         {
@@ -65,10 +65,10 @@ private:
         return result;
     }
 
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr input1_sub_;
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr input2_sub_;
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr input3_sub_;
-    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr output_pub_;
+    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr input1_sub_;
+    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr input2_sub_;
+    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr input3_sub_;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr output_pub_;
     rclcpp::node_interfaces::OnSetParametersCallbackHandle::SharedPtr param_callback_handle_;
 
     int selected_input_;
