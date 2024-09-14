@@ -1,0 +1,12 @@
+# 3D Files
+*.bfb
+*.cubepro
+
+
+# Cargo build files
+**/tests/**/Cargo.lock
+**/tests/**/common/
+**/tests/**/target/
+
+#cucumber port
+cucumber.wire
