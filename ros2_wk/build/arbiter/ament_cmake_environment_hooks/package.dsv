@@ -1,0 +1,4 @@
+source;share/arbiter/local_setup.bash
+source;share/arbiter/local_setup.dsv
+source;share/arbiter/local_setup.sh
+source;share/arbiter/local_setup.zsh

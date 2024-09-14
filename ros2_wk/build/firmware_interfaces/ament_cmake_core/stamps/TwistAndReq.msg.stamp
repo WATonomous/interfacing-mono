@@ -1,0 +1,3 @@
+string identifier
+bool deassertion
+geometry_msgs/Twist twist

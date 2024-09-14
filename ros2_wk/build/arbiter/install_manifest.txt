@@ -1,0 +1,16 @@
+/home/xander/firmware_overall/ros2_wk/install/arbiter/lib/arbiter/arbiter
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/ament_index/resource_index/package_run_dependencies/arbiter
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/ament_index/resource_index/parent_prefix_path/arbiter
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/ament_prefix_path.sh
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/ament_prefix_path.dsv
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/path.sh
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/path.dsv
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.bash
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.sh
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.zsh
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.dsv
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.dsv
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/ament_index/resource_index/packages/arbiter
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/cmake/arbiterConfig.cmake
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/cmake/arbiterConfig-version.cmake
+/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.xml

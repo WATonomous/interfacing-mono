@@ -19,7 +19,7 @@ public:
         input3_sub_ = this->create_subscription<geometry_msgs::msg::Twist>(
             "input3", 10, std::bind(&MuxNode::input3_callback, this, std::placeholders::_1));
 
-        output_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("output", 10);
+        output_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("arbiter_in", 10);
 
         param_callback_handle_ = this->add_on_set_parameters_callback(
             std::bind(&MuxNode::param_callback, this, std::placeholders::_1));

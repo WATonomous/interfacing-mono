@@ -1,0 +1,47 @@
+[0.050s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/mux -- -j6 -l6
+[0.083s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.267s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.289s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.291s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.294s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.399s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.399s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.502s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.511s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.580s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.580s] -- Configured cppcheck include dirs: 
+[0.580s] -- Configured cppcheck exclude dirs and/or files: 
+[0.580s] -- Added test 'lint_cmake' to check CMake code style
+[0.580s] -- Added test 'uncrustify' to check C / C++ code style
+[0.581s] -- Configured uncrustify additional arguments: 
+[0.581s] -- Added test 'xmllint' to check XML markup files
+[0.586s] -- Configuring done
+[0.593s] -- Generating done
+[0.596s] -- Build files have been written to: /home/xander/firmware_overall/ros2_wk/build/mux
+[0.662s] [ 50%] [32mBuilding CXX object CMakeFiles/mux.dir/src/mux.cpp.o[0m
+[6.833s] [100%] [32m[1mLinking CXX executable mux[0m
+[7.141s] [100%] Built target mux
+[7.152s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/mux -- -j6 -l6
+[7.209s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/mux
+[7.230s] -- Install configuration: ""
+[7.230s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/lib/mux/mux
+[7.233s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/mux/lib/mux/mux" to ""
+[7.233s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/ament_index/resource_index/package_run_dependencies/mux
+[7.233s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/ament_index/resource_index/parent_prefix_path/mux
+[7.233s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/environment/ament_prefix_path.sh
+[7.233s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/environment/ament_prefix_path.dsv
+[7.233s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/environment/path.sh
+[7.233s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/environment/path.dsv
+[7.233s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/local_setup.bash
+[7.233s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/local_setup.sh
+[7.234s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/local_setup.zsh
+[7.234s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/local_setup.dsv
+[7.234s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.dsv
+[7.234s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/ament_index/resource_index/packages/mux
+[7.234s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/cmake/muxConfig.cmake
+[7.234s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/cmake/muxConfig-version.cmake
+[7.234s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.xml
+[7.237s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/mux

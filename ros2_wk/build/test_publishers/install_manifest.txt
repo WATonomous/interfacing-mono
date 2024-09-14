@@ -1,0 +1,15 @@
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/ament_index/resource_index/package_run_dependencies/test_publishers
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/ament_index/resource_index/parent_prefix_path/test_publishers
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/environment/ament_prefix_path.sh
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/environment/ament_prefix_path.dsv
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/environment/path.sh
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/environment/path.dsv
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/local_setup.bash
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/local_setup.sh
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/local_setup.zsh
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/local_setup.dsv
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.dsv
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/ament_index/resource_index/packages/test_publishers
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/cmake/test_publishersConfig.cmake
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/cmake/test_publishersConfig-version.cmake
+/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.xml

@@ -1,0 +1,68 @@
+[0.097s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces -- -j6 -l6
+[0.149s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.314s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.411s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.429s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.434s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.455s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.550s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.705s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.056s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.074s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.074s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.083s] -- Added test 'lint_cmake' to check CMake code style
+[1.083s] -- Added test 'xmllint' to check XML markup files
+[1.085s] -- Configuring done
+[1.108s] -- Generating done
+[1.114s] -- Build files have been written to: /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces
+[1.185s] [  3%] [32mBuilding C object CMakeFiles/firmware_interfaces__rosidl_generator_c.dir/rosidl_generator_c/firmware_interfaces/msg/detail/twist_and_req__functions.c.o[0m
+[1.190s] [  6%] Built target firmware_interfaces__cpp
+[1.198s] [  6%] Built target ament_cmake_python_copy_firmware_interfaces
+[1.202s] In file included from [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_generator_c/firmware_interfaces/msg/detail/twist_and_req__functions.h:19[m[K,
+[1.202s]                  from [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_generator_c/firmware_interfaces/msg/detail/twist_and_req__functions.c:4[m[K:
+[1.202s] [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_generator_c/firmware_interfaces/msg/detail/twist_and_req__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/twist__struct.h: No such file or directory
+[1.202s]    24 | #include [01;31m[K"geometry_msgs/msg/detail/twist__struct.h"[m[K
+[1.202s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.203s] compilation terminated.
+[1.204s] gmake[2]: *** [CMakeFiles/firmware_interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/firmware_interfaces__rosidl_generator_c.dir/rosidl_generator_c/firmware_interfaces/msg/detail/twist_and_req__functions.c.o] Error 1
+[1.205s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/firmware_interfaces__rosidl_generator_c.dir/all] Error 2
+[1.205s] gmake[1]: *** Waiting for unfinished jobs....
+[1.213s] [  9%] [32mBuilding CXX object CMakeFiles/firmware_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/firmware_interfaces/msg/detail/dds_fastrtps/twist_and_req__type_support.cpp.o[0m
+[1.214s] [ 12%] [32mBuilding CXX object CMakeFiles/firmware_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/firmware_interfaces/msg/twist_and_req__type_support.cpp.o[0m
+[1.216s] [ 16%] [32mBuilding CXX object CMakeFiles/firmware_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/firmware_interfaces/msg/detail/twist_and_req__type_support.cpp.o[0m
+[1.266s] In file included from [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_typesupport_cpp/firmware_interfaces/msg/twist_and_req__type_support.cpp:7[m[K:
+[1.266s] [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_generator_cpp/firmware_interfaces/msg/detail/twist_and_req__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/twist__struct.hpp: No such file or directory
+[1.266s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/twist__struct.hpp"[m[K
+[1.266s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.266s] compilation terminated.
+[1.267s] In file included from [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_typesupport_fastrtps_cpp/firmware_interfaces/msg/detail/twist_and_req__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[1.267s]                  from [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_typesupport_fastrtps_cpp/firmware_interfaces/msg/detail/dds_fastrtps/twist_and_req__type_support.cpp:4[m[K:
+[1.267s] [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_generator_cpp/firmware_interfaces/msg/detail/twist_and_req__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/twist__struct.hpp: No such file or directory
+[1.268s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/twist__struct.hpp"[m[K
+[1.268s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.268s] compilation terminated.
+[1.269s] gmake[2]: *** [CMakeFiles/firmware_interfaces__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/firmware_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/firmware_interfaces/msg/twist_and_req__type_support.cpp.o] Error 1
+[1.269s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/firmware_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[1.283s] gmake[2]: *** [CMakeFiles/firmware_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/firmware_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/firmware_interfaces/msg/detail/dds_fastrtps/twist_and_req__type_support.cpp.o] Error 1
+[1.300s] In file included from [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_typesupport_introspection_cpp/firmware_interfaces/msg/detail/twist_and_req__type_support.cpp:12[m[K:
+[1.300s] [01m[K/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces/rosidl_generator_cpp/firmware_interfaces/msg/detail/twist_and_req__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/twist__struct.hpp: No such file or directory
+[1.300s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/twist__struct.hpp"[m[K
+[1.300s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.300s] compilation terminated.
+[1.300s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/firmware_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[1.311s] gmake[2]: *** [CMakeFiles/firmware_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/firmware_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/firmware_interfaces/msg/detail/twist_and_req__type_support.cpp.o] Error 1
+[1.311s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/firmware_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[1.399s] running egg_info
+[1.399s] writing firmware_interfaces.egg-info/PKG-INFO
+[1.399s] writing dependency_links to firmware_interfaces.egg-info/dependency_links.txt
+[1.399s] writing top-level names to firmware_interfaces.egg-info/top_level.txt
+[1.401s] reading manifest file 'firmware_interfaces.egg-info/SOURCES.txt'
+[1.401s] writing manifest file 'firmware_interfaces.egg-info/SOURCES.txt'
+[1.419s] [ 16%] Built target ament_cmake_python_build_firmware_interfaces_egg
+[1.419s] gmake: *** [Makefile:146: all] Error 2
+[1.423s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces -- -j6 -l6

@@ -1,0 +1,9 @@
+/home/xander/firmware_overall/ros2_wk/build/test_publishers/CMakeFiles/uninstall.dir
+/home/xander/firmware_overall/ros2_wk/build/test_publishers/CMakeFiles/test_publishers_uninstall.dir
+/home/xander/firmware_overall/ros2_wk/build/test_publishers/CMakeFiles/test.dir
+/home/xander/firmware_overall/ros2_wk/build/test_publishers/CMakeFiles/edit_cache.dir
+/home/xander/firmware_overall/ros2_wk/build/test_publishers/CMakeFiles/rebuild_cache.dir
+/home/xander/firmware_overall/ros2_wk/build/test_publishers/CMakeFiles/list_install_components.dir
+/home/xander/firmware_overall/ros2_wk/build/test_publishers/CMakeFiles/install.dir
+/home/xander/firmware_overall/ros2_wk/build/test_publishers/CMakeFiles/install/local.dir
+/home/xander/firmware_overall/ros2_wk/build/test_publishers/CMakeFiles/install/strip.dir

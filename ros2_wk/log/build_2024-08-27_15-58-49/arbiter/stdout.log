@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target arbiter[0m
+[100%] Built target arbiter
+-- Install configuration: ""
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/lib/arbiter/arbiter
+-- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/arbiter/lib/arbiter/arbiter" to ""
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/ament_index/resource_index/package_run_dependencies/arbiter
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/ament_index/resource_index/parent_prefix_path/arbiter
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/ament_prefix_path.sh
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/ament_prefix_path.dsv
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/path.sh
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/path.dsv
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.bash
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.sh
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.zsh
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.dsv
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.dsv
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/ament_index/resource_index/packages/arbiter
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/cmake/arbiterConfig.cmake
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/cmake/arbiterConfig-version.cmake
+-- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.xml

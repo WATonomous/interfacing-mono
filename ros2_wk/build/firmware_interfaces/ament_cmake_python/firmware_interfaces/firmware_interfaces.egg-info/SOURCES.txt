@@ -1,0 +1,8 @@
+setup.py
+firmware_interfaces/__init__.py
+firmware_interfaces.egg-info/PKG-INFO
+firmware_interfaces.egg-info/SOURCES.txt
+firmware_interfaces.egg-info/dependency_links.txt
+firmware_interfaces.egg-info/top_level.txt
+firmware_interfaces/msg/__init__.py
+firmware_interfaces/msg/_twist_and_req.py

@@ -1,0 +1,6 @@
+{
+  "package_name": "shared_msgs",
+  "non_idl_tuples": [
+    "/home/xander/firmware_overall/ros2_wk/src/shared_msgs:msg/CANReqMsg.msg"
+  ]
+}

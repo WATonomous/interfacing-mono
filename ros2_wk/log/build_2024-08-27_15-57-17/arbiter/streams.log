@@ -1,0 +1,47 @@
+[0.104s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/arbiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/xander/firmware_overall/ros2_wk/src/arbiter -DCMAKE_INSTALL_PREFIX=/home/xander/firmware_overall/ros2_wk/install/arbiter
+[0.382s] -- The C compiler identification is GNU 11.4.0
+[0.532s] -- The CXX compiler identification is GNU 11.4.0
+[0.587s] -- Detecting C compiler ABI info
+[0.681s] -- Detecting C compiler ABI info - done
+[0.703s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.722s] -- Detecting C compile features
+[0.738s] -- Detecting C compile features - done
+[0.758s] -- Detecting CXX compiler ABI info
+[0.907s] -- Detecting CXX compiler ABI info - done
+[0.940s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.940s] -- Detecting CXX compile features
+[0.940s] -- Detecting CXX compile features - done
+[0.988s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.173s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.361s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.438s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.443s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.449s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.530s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.530s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.680s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.708s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.752s] -- Looking for pthread.h
+[1.847s] -- Looking for pthread.h - found
+[1.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.028s] -- Found Threads: TRUE  
+[2.131s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.286s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.286s] -- Configured cppcheck include dirs: 
+[2.286s] -- Configured cppcheck exclude dirs and/or files: 
+[2.287s] -- Added test 'lint_cmake' to check CMake code style
+[2.290s] -- Added test 'uncrustify' to check C / C++ code style
+[2.290s] -- Configured uncrustify additional arguments: 
+[2.312s] -- Added test 'xmllint' to check XML markup files
+[2.313s] -- Configuring done
+[2.320s] -- Generating done
+[2.321s] -- Build files have been written to: /home/xander/firmware_overall/ros2_wk/build/arbiter
+[2.330s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/arbiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/xander/firmware_overall/ros2_wk/src/arbiter -DCMAKE_INSTALL_PREFIX=/home/xander/firmware_overall/ros2_wk/install/arbiter
+[2.332s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/arbiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/arbiter -- -j6 -l6
+[2.434s] [ 50%] [32mBuilding CXX object CMakeFiles/arbiter.dir/src/arbiter.cpp.o[0m
+[5.129s] [100%] [32m[1mLinking CXX executable arbiter[0m
+[5.397s] [100%] Built target arbiter

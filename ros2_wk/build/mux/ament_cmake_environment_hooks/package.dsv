@@ -1,0 +1,4 @@
+source;share/mux/local_setup.bash
+source;share/mux/local_setup.dsv
+source;share/mux/local_setup.sh
+source;share/mux/local_setup.zsh

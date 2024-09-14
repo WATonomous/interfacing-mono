@@ -1,0 +1,8 @@
+source;share/arbiter/hook/cmake_prefix_path.ps1
+source;share/arbiter/hook/cmake_prefix_path.dsv
+source;share/arbiter/hook/cmake_prefix_path.sh
+source;share/arbiter/local_setup.bash
+source;share/arbiter/local_setup.dsv
+source;share/arbiter/local_setup.ps1
+source;share/arbiter/local_setup.sh
+source;share/arbiter/local_setup.zsh

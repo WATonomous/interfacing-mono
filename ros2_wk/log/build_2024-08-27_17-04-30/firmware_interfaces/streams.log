@@ -1,0 +1,203 @@
+[0.090s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces -- -j6 -l6
+[0.116s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.381s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.413s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.413s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.416s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.490s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.686s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.126s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.141s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.142s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.142s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.183s] -- Added test 'lint_cmake' to check CMake code style
+[1.183s] -- Added test 'xmllint' to check XML markup files
+[1.188s] -- Configuring done
+[1.247s] -- Generating done
+[1.253s] -- Build files have been written to: /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces
+[1.328s] [  3%] [32mBuilding C object CMakeFiles/firmware_interfaces__rosidl_generator_c.dir/rosidl_generator_c/firmware_interfaces/msg/detail/twist_and_req__functions.c.o[0m
+[1.328s] [  6%] Built target firmware_interfaces__cpp
+[1.363s] [  6%] Built target ament_cmake_python_copy_firmware_interfaces
+[1.403s] [  9%] [32mBuilding CXX object CMakeFiles/firmware_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/firmware_interfaces/msg/twist_and_req__type_support.cpp.o[0m
+[1.403s] [ 12%] [32mBuilding CXX object CMakeFiles/firmware_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/firmware_interfaces/msg/detail/dds_fastrtps/twist_and_req__type_support.cpp.o[0m
+[1.408s] [ 16%] [32mBuilding CXX object CMakeFiles/firmware_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/firmware_interfaces/msg/detail/twist_and_req__type_support.cpp.o[0m
+[1.456s] [ 19%] [32m[1mLinking C shared library libfirmware_interfaces__rosidl_generator_c.so[0m
+[1.512s] [ 22%] Built target firmware_interfaces__rosidl_generator_c
+[1.539s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.539s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.635s] running egg_info
+[1.635s] writing firmware_interfaces.egg-info/PKG-INFO
+[1.635s] writing dependency_links to firmware_interfaces.egg-info/dependency_links.txt
+[1.635s] writing top-level names to firmware_interfaces.egg-info/top_level.txt
+[1.635s] reading manifest file 'firmware_interfaces.egg-info/SOURCES.txt'
+[1.635s] writing manifest file 'firmware_interfaces.egg-info/SOURCES.txt'
+[1.646s] [ 29%] Built target ament_cmake_python_build_firmware_interfaces_egg
+[1.658s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.694s] [ 35%] [32m[1mLinking CXX shared library libfirmware_interfaces__rosidl_typesupport_cpp.so[0m
+[1.762s] [ 38%] Built target firmware_interfaces__rosidl_typesupport_cpp
+[1.774s] [ 41%] [32m[1mLinking CXX shared library libfirmware_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.774s] [ 45%] [32mBuilding CXX object CMakeFiles/firmware_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/firmware_interfaces/msg/detail/twist_and_req__type_support_c.cpp.o[0m
+[1.775s] [ 48%] [32mBuilding C object CMakeFiles/firmware_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/firmware_interfaces/msg/detail/twist_and_req__type_support.c.o[0m
+[1.779s] [ 51%] [32m[1mLinking CXX shared library libfirmware_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.851s] [ 54%] [32m[1mLinking C shared library libfirmware_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.867s] [ 58%] Built target firmware_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.869s] [ 61%] Built target firmware_interfaces__rosidl_typesupport_introspection_cpp
+[1.895s] [ 61%] Built target firmware_interfaces__rosidl_typesupport_introspection_c
+[1.907s] [ 64%] [32mBuilding CXX object CMakeFiles/firmware_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/firmware_interfaces/msg/twist_and_req__type_support.cpp.o[0m
+[1.935s] [ 67%] [32m[1mLinking CXX shared library libfirmware_interfaces__rosidl_typesupport_c.so[0m
+[2.007s] [ 67%] Built target firmware_interfaces__rosidl_typesupport_c
+[2.081s] [ 70%] [32m[1mLinking CXX shared library libfirmware_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.184s] [ 70%] Built target firmware_interfaces__rosidl_typesupport_fastrtps_c
+[2.214s] [ 70%] Built target firmware_interfaces
+[2.237s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.453s] [ 74%] Built target firmware_interfaces__py
+[2.495s] [ 77%] [32mBuilding C object CMakeFiles/firmware_interfaces__rosidl_generator_py.dir/rosidl_generator_py/firmware_interfaces/msg/_twist_and_req_s.c.o[0m
+[2.699s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/firmware_interfaces/libfirmware_interfaces__rosidl_generator_py.so[0m
+[2.776s] [ 80%] Built target firmware_interfaces__rosidl_generator_py
+[2.800s] [ 83%] [32mBuilding C object CMakeFiles/firmware_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/firmware_interfaces/_firmware_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.800s] [ 87%] [32mBuilding C object CMakeFiles/firmware_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/firmware_interfaces/_firmware_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.809s] [ 90%] [32mBuilding C object CMakeFiles/firmware_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/firmware_interfaces/_firmware_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.927s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.927s] [100%] [32m[1mLinking C shared library rosidl_generator_py/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.927s] [100%] [32m[1mLinking C shared library rosidl_generator_py/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.000s] [100%] Built target firmware_interfaces__rosidl_typesupport_c__pyext
+[3.004s] [100%] Built target firmware_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.004s] [100%] Built target firmware_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.023s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces -- -j6 -l6
+[3.222s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces
+[3.229s] -- Install configuration: ""
+[3.229s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/ament_index/resource_index/rosidl_interfaces/firmware_interfaces
+[3.230s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces
+[3.230s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg
+[3.237s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.237s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail
+[3.237s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__type_support.h
+[3.237s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__functions.c
+[3.237s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__functions.h
+[3.237s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__struct.h
+[3.237s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/twist_and_req.h
+[3.237s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/environment/library_path.sh
+[3.237s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/environment/library_path.dsv
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_generator_c.so
+[3.238s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_generator_c.so" to ""
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__rosidl_typesupport_fastrtps_c.h
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.238s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/twist_and_req.hpp
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__struct.hpp
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__builder.hpp
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__traits.hpp
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__rosidl_typesupport_fastrtps_cpp.hpp
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/dds_fastrtps
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.238s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__rosidl_typesupport_introspection_c.h
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__type_support.c
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_introspection_c.so
+[3.238s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_c.so
+[3.238s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_c.so" to ""
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg
+[3.238s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__rosidl_typesupport_introspection_cpp.hpp
+[3.238s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/include/firmware_interfaces/firmware_interfaces/msg/detail/twist_and_req__type_support.cpp
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.239s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_cpp.so
+[3.239s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/environment/pythonpath.sh
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/environment/pythonpath.dsv
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces-0.0.0-py3.10.egg-info
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/_firmware_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/msg
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/msg/__init__.py
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/msg/_twist_and_req.py
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/msg/_twist_and_req_s.c
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/__init__.py
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/_firmware_interfaces_s.ep.rosidl_typesupport_c.c
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/_firmware_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.239s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/libfirmware_interfaces__rosidl_generator_py.so
+[3.270s] Listing '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces'...
+[3.270s] Compiling '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/__init__.py'...
+[3.270s] Listing '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/msg'...
+[3.270s] Compiling '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/msg/__init__.py'...
+[3.270s] Compiling '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/msg/_twist_and_req.py'...
+[3.273s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.273s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.274s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.274s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.274s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.274s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/local/lib/python3.10/dist-packages/firmware_interfaces/firmware_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.274s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_generator_py.so
+[3.274s] -- Set runtime path of "/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/libfirmware_interfaces__rosidl_generator_py.so" to ""
+[3.274s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/msg/TwistAndReq.idl
+[3.275s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/msg/TwistAndReq.msg
+[3.275s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/ament_index/resource_index/package_run_dependencies/firmware_interfaces
+[3.275s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/ament_index/resource_index/parent_prefix_path/firmware_interfaces
+[3.275s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/environment/ament_prefix_path.sh
+[3.275s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/environment/ament_prefix_path.dsv
+[3.275s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/environment/path.sh
+[3.276s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/environment/path.dsv
+[3.276s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/local_setup.bash
+[3.276s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/local_setup.sh
+[3.276s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/local_setup.zsh
+[3.276s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/local_setup.dsv
+[3.276s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.dsv
+[3.276s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/ament_index/resource_index/packages/firmware_interfaces
+[3.276s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/export_firmware_interfaces__rosidl_generator_cExport.cmake
+[3.276s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/export_firmware_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.277s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/export_firmware_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.277s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/export_firmware_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.277s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/export_firmware_interfaces__rosidl_generator_cppExport.cmake
+[3.277s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/export_firmware_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.277s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/export_firmware_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.278s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.278s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.278s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfaces__rosidl_typesupport_cExport.cmake
+[3.278s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.278s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.279s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.279s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfaces__rosidl_typesupport_cppExport.cmake
+[3.279s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.279s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/export_firmware_interfaces__rosidl_generator_pyExport.cmake
+[3.279s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/export_firmware_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.279s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.279s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.279s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.279s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.280s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.280s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.280s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.280s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfacesConfig.cmake
+[3.280s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/cmake/firmware_interfacesConfig-version.cmake
+[3.280s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.xml
+[3.283s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces

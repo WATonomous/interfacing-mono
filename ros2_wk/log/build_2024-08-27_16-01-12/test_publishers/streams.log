@@ -1,0 +1,20 @@
+[0.053s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/test_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/test_publishers -- -j6 -l6
+[0.151s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/test_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/test_publishers -- -j6 -l6
+[0.212s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/test_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/test_publishers
+[0.223s] -- Install configuration: ""
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/ament_index/resource_index/package_run_dependencies/test_publishers
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/ament_index/resource_index/parent_prefix_path/test_publishers
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/environment/ament_prefix_path.sh
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/environment/ament_prefix_path.dsv
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/environment/path.sh
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/environment/path.dsv
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/local_setup.bash
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/local_setup.sh
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/local_setup.zsh
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/local_setup.dsv
+[0.224s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.dsv
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/ament_index/resource_index/packages/test_publishers
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/cmake/test_publishersConfig.cmake
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/cmake/test_publishersConfig-version.cmake
+[0.224s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.xml
+[0.256s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/test_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/test_publishers

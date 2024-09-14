@@ -1,0 +1,332 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71f7f92cbe50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71f7f92cb550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71f7f92cb550>>)
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.164s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xander/firmware_overall/ros2_wk'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbiter) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbiter) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbiter) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbiter) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbiter) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbiter) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbiter) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbiter) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbiter) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arbiter' with type 'ros.ament_cmake' and name 'arbiter'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware_interfaces) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware_interfaces) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware_interfaces) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware_interfaces) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware_interfaces) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware_interfaces) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware_interfaces) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/firmware_interfaces) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/firmware_interfaces' with type 'ros.ament_cmake' and name 'firmware_interfaces'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/mux) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/mux) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/mux) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/mux) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/mux) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/mux) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/mux) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/mux) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/mux) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mux' with type 'ros.ament_cmake' and name 'mux'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publishers) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publishers) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publishers) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publishers) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publishers) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publishers) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publishers) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publishers) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_publishers) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_publishers' with type 'ros.ament_cmake' and name 'test_publishers'
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/xander/firmware_overall/ros2_wk/install
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/xander/ros2_ws/install
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'arbiter' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'arbiter' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'arbiter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'arbiter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'arbiter' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'arbiter' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'arbiter' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'arbiter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'arbiter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'arbiter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xander/firmware_overall/ros2_wk/build/arbiter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xander/firmware_overall/ros2_wk/install/arbiter', 'merge_install': False, 'path': '/home/xander/firmware_overall/ros2_wk/src/arbiter', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'firmware_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'firmware_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'firmware_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'firmware_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'firmware_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'firmware_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'firmware_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'firmware_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'firmware_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'firmware_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces', 'merge_install': False, 'path': '/home/xander/firmware_overall/ros2_wk/src/firmware_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mux' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mux' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mux' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mux' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mux' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'mux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xander/firmware_overall/ros2_wk/build/mux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xander/firmware_overall/ros2_wk/install/mux', 'merge_install': False, 'path': '/home/xander/firmware_overall/ros2_wk/src/mux', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_publishers' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_publishers' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_publishers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_publishers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_publishers' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_publishers' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_publishers' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_publishers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'test_publishers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'test_publishers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xander/firmware_overall/ros2_wk/build/test_publishers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xander/firmware_overall/ros2_wk/install/test_publishers', 'merge_install': False, 'path': '/home/xander/firmware_overall/ros2_wk/src/test_publishers', 'symlink_install': False, 'test_result_base': None}
+[0.228s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.230s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xander/firmware_overall/ros2_wk/src/arbiter' with build type 'ament_cmake'
+[0.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xander/firmware_overall/ros2_wk/src/arbiter'
+[0.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xander/firmware_overall/ros2_wk/src/firmware_interfaces' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xander/firmware_overall/ros2_wk/src/firmware_interfaces'
+[0.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xander/firmware_overall/ros2_wk/src/mux' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xander/firmware_overall/ros2_wk/src/mux'
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xander/firmware_overall/ros2_wk/src/test_publishers' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xander/firmware_overall/ros2_wk/src/test_publishers'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xander/firmware_overall/ros2_wk/build/arbiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/arbiter -- -j6 -l6
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/xander/firmware_overall/ros2_wk/src/firmware_interfaces -DCMAKE_INSTALL_PREFIX=/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xander/firmware_overall/ros2_wk/build/mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/mux -- -j6 -l6
+[0.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xander/firmware_overall/ros2_wk/build/test_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/test_publishers -- -j6 -l6
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xander/firmware_overall/ros2_wk/build/test_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/test_publishers -- -j6 -l6
+[0.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xander/firmware_overall/ros2_wk/build/arbiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/arbiter -- -j6 -l6
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xander/firmware_overall/ros2_wk/build/mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/mux -- -j6 -l6
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xander/firmware_overall/ros2_wk/build/test_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/test_publishers
+[0.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xander/firmware_overall/ros2_wk/build/arbiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/arbiter
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xander/firmware_overall/ros2_wk/build/mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/mux
+[0.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_publishers)
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers' for CMake module files
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers' for CMake config files
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_publishers', 'cmake_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/hook/cmake_prefix_path.ps1'
+[0.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xander/firmware_overall/ros2_wk/build/test_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/test_publishers
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/hook/cmake_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/hook/cmake_prefix_path.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers/bin'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers/lib/pkgconfig/test_publishers.pc'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers/lib/python3.10/site-packages'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers/bin'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.bash'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.zsh'
+[0.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/colcon-core/packages/test_publishers)
+[0.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbiter)
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter' for CMake module files
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xander/firmware_overall/ros2_wk/build/arbiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/arbiter
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter' for CMake config files
+[0.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbiter', 'cmake_prefix_path')
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/hook/cmake_prefix_path.ps1'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/hook/cmake_prefix_path.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/hook/cmake_prefix_path.sh'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/lib'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/bin'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/lib/pkgconfig/arbiter.pc'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/lib/python3.10/site-packages'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/bin'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.sh'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.bash'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.zsh'
+[0.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xander/firmware_overall/ros2_wk/install/arbiter/share/colcon-core/packages/arbiter)
+[0.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mux)
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux' for CMake module files
+[0.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xander/firmware_overall/ros2_wk/build/mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/mux
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux' for CMake config files
+[0.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('mux', 'cmake_prefix_path')
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/hook/cmake_prefix_path.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/hook/cmake_prefix_path.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/hook/cmake_prefix_path.sh'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/lib'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/bin'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/lib/pkgconfig/mux.pc'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/lib/python3.10/site-packages'
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/bin'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.ps1'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.sh'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.bash'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.zsh'
+[0.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xander/firmware_overall/ros2_wk/install/mux/share/colcon-core/packages/mux)
+[0.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_publishers)
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers' for CMake module files
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers' for CMake config files
+[0.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_publishers', 'cmake_prefix_path')
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/hook/cmake_prefix_path.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/hook/cmake_prefix_path.dsv'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/hook/cmake_prefix_path.sh'
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers/bin'
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers/lib/pkgconfig/test_publishers.pc'
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers/lib/python3.10/site-packages'
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/test_publishers/bin'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.ps1'
+[0.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.sh'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.bash'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/test_publishers/package.zsh'
+[0.717s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xander/firmware_overall/ros2_wk/install/test_publishers/share/colcon-core/packages/test_publishers)
+[0.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbiter)
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter' for CMake module files
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter' for CMake config files
+[0.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbiter', 'cmake_prefix_path')
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/hook/cmake_prefix_path.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/hook/cmake_prefix_path.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/hook/cmake_prefix_path.sh'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/lib'
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/bin'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/lib/pkgconfig/arbiter.pc'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/lib/python3.10/site-packages'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/arbiter/bin'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.dsv'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.sh'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.bash'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.zsh'
+[0.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xander/firmware_overall/ros2_wk/install/arbiter/share/colcon-core/packages/arbiter)
+[0.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mux)
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux' for CMake module files
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux' for CMake config files
+[0.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('mux', 'cmake_prefix_path')
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/hook/cmake_prefix_path.ps1'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/hook/cmake_prefix_path.dsv'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/hook/cmake_prefix_path.sh'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/lib'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/bin'
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/lib/pkgconfig/mux.pc'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/lib/python3.10/site-packages'
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/mux/bin'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.ps1'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.dsv'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.sh'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.bash'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.zsh'
+[0.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xander/firmware_overall/ros2_wk/install/mux/share/colcon-core/packages/mux)
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/xander/firmware_overall/ros2_wk/src/firmware_interfaces -DCMAKE_INSTALL_PREFIX=/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces -- -j6 -l6
+[1.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces -- -j6 -l6
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces
+[1.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(firmware_interfaces)
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces' for CMake module files
+[1.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xander/firmware_overall/ros2_wk/build/firmware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/firmware_interfaces
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces' for CMake config files
+[1.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('firmware_interfaces', 'cmake_prefix_path')
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/hook/cmake_prefix_path.ps1'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/hook/cmake_prefix_path.dsv'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/hook/cmake_prefix_path.sh'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/bin'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/pkgconfig/firmware_interfaces.pc'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/python3.10/site-packages'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/bin'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.sh'
+[1.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.bash'
+[1.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.zsh'
+[1.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/colcon-core/packages/firmware_interfaces)
+[1.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(firmware_interfaces)
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces' for CMake module files
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces' for CMake config files
+[1.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('firmware_interfaces', 'cmake_prefix_path')
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/hook/cmake_prefix_path.ps1'
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/hook/cmake_prefix_path.dsv'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/hook/cmake_prefix_path.sh'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/bin'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/pkgconfig/firmware_interfaces.pc'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/lib/python3.10/site-packages'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/bin'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.bash'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/firmware_interfaces/package.zsh'
+[1.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xander/firmware_overall/ros2_wk/install/firmware_interfaces/share/colcon-core/packages/firmware_interfaces)
+[1.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.493s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.498s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.570s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.570s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xander/firmware_overall/ros2_wk/install/local_setup.ps1'
+[1.574s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xander/firmware_overall/ros2_wk/install/_local_setup_util_ps1.py'
+[1.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xander/firmware_overall/ros2_wk/install/setup.ps1'
+[1.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xander/firmware_overall/ros2_wk/install/local_setup.sh'
+[1.581s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xander/firmware_overall/ros2_wk/install/_local_setup_util_sh.py'
+[1.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xander/firmware_overall/ros2_wk/install/setup.sh'
+[1.582s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xander/firmware_overall/ros2_wk/install/local_setup.bash'
+[1.583s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xander/firmware_overall/ros2_wk/install/setup.bash'
+[1.584s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xander/firmware_overall/ros2_wk/install/local_setup.zsh'
+[1.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xander/firmware_overall/ros2_wk/install/setup.zsh'

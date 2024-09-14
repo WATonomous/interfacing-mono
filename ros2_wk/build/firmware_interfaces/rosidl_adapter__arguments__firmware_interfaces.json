@@ -1,0 +1,6 @@
+{
+  "package_name": "firmware_interfaces",
+  "non_idl_tuples": [
+    "/home/xander/firmware_overall/ros2_wk/src/firmware_interfaces:msg/TwistAndReq.msg"
+  ]
+}

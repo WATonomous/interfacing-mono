@@ -1,0 +1,22 @@
+[0.096s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/arbiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/arbiter -- -j6 -l6
+[0.245s] [100%] Built target arbiter
+[0.296s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/arbiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/xander/firmware_overall/ros2_wk/build/arbiter -- -j6 -l6
+[0.416s] Invoking command in '/home/xander/firmware_overall/ros2_wk/build/arbiter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/arbiter
+[0.422s] -- Install configuration: ""
+[0.422s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/lib/arbiter/arbiter
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/ament_index/resource_index/package_run_dependencies/arbiter
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/ament_index/resource_index/parent_prefix_path/arbiter
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/ament_prefix_path.sh
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/ament_prefix_path.dsv
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/path.sh
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/environment/path.dsv
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.bash
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.sh
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.zsh
+[0.423s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/local_setup.dsv
+[0.430s] -- Installing: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.dsv
+[0.430s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/ament_index/resource_index/packages/arbiter
+[0.431s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/cmake/arbiterConfig.cmake
+[0.431s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/cmake/arbiterConfig-version.cmake
+[0.431s] -- Up-to-date: /home/xander/firmware_overall/ros2_wk/install/arbiter/share/arbiter/package.xml
+[0.435s] Invoked command in '/home/xander/firmware_overall/ros2_wk/build/arbiter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xander/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/xander/firmware_overall/ros2_wk/build/arbiter

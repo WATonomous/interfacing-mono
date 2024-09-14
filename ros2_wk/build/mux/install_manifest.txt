@@ -1,0 +1,16 @@
+/home/xander/firmware_overall/ros2_wk/install/mux/lib/mux/mux
+/home/xander/firmware_overall/ros2_wk/install/mux/share/ament_index/resource_index/package_run_dependencies/mux
+/home/xander/firmware_overall/ros2_wk/install/mux/share/ament_index/resource_index/parent_prefix_path/mux
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/environment/ament_prefix_path.sh
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/environment/ament_prefix_path.dsv
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/environment/path.sh
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/environment/path.dsv
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/local_setup.bash
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/local_setup.sh
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/local_setup.zsh
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/local_setup.dsv
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.dsv
+/home/xander/firmware_overall/ros2_wk/install/mux/share/ament_index/resource_index/packages/mux
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/cmake/muxConfig.cmake
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/cmake/muxConfig-version.cmake
+/home/xander/firmware_overall/ros2_wk/install/mux/share/mux/package.xml
