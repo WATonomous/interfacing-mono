@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "vehicle_controL_module_0.1.0-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/vehicle_controL_module_0.1.0-eagle-import.kicad_sym")(options "")(descr ""))
+)
