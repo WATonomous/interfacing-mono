@@ -1,0 +1,9 @@
+msg1:
+  name: "throttle_pub"
+  priority: 1
+  source: "geometry_msgs/msg/twist.hpp" 
+
+msg2:
+  name: "brake_pub"
+  priority: 2
+  source: "geometry_msgs/msg/twist.hpp"
